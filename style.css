@@ -99,3 +99,29 @@ img{
 .imagem2{
  width: 50%;
 }
+
+/* Formação Escolar */
+
+#formacao{
+    width: 100%;
+    height: 600px;
+    color: rgb(21, 36, 63);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.box{
+    align-items: baseline;
+    padding: 15px;
+    width: 33%;
+    display: block;
+    margin: auto 0;
+    
+}
+.box a{
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+}
