@@ -1,3 +1,3 @@
 # portifólio1
 
-Teste de repositório responsivo
+Portifólio para fins de didático.

@@ -1,78 +1,219 @@
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Pessoal(CV online)</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- box ícons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
     
-<nav> 
-    <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="#sobre">Sobre Mim</a></li>
-        <li><a href="#formacao">Formação educacional</a></li>
-        <li><a href="">Projetos</a></li>
-        <li><a href="">Contato</a></li>
-    </ul>
-</nav>
+<header>
+    <a href="#" class="logo">Portifolio</a>
+    <nav> 
+        <a href="#home">Home</a>
+        <a href="#services">Service</a>
+        <a href="#portifolio">Portifolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+   <nav class="responsive"> 
+        <a href="#home">Home</a>
+        <a href="#home">Service</a>
+        <a href="#portifolio">Portifolio</a>
+        <a href="#Contact">Contact</a>
+        <a href="#About">About</a>
+    </nav>         
+    <div class="menu-hamburguer">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div> 
+    
+</header>
 
-        <section id="container">
-           <div class="txt">
-            <h1>Olá,Seja bem vindo!</h1>
-            <h2>Sou André da Silva Marcos</h2>
-            <p>Estudante de Programação</p>
-            <p>Estudando para tornar-me fullstack.</p>
-           </div>
-           <div class="imagem">
-            <img src="/img/foto_perfil.png" alt="">
-           </div>
-        </section>
+<!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Eu sou</h3>
+            <h1>André Marcos</h1>
+            <h3>Full-Stack <span>Developer</span> e Estudante </h3>
 
-        <section id="sobre">
+            <p>. Ipsa, aperiam ducimus consequatur laudantium recusandae dolorum cum harum libero eveniet optio ea, tenetur iure, eos </p>
 
-            <div class="contant">
-               <div class="text">
-                <p>Sou um jovem que através da tecnologia,mudou completamente o modo de pensar lógicamente.
-                    Tenho 29 anos,iniciei meus estudos acompanhando canais no youtube.Depois do meu primeiro contato com o <span class="red">Desenvolvimento web</span> decidi investir mais nos meus estudos.
-                    </p>
-                   <p> Estou na area faz 5 meses e pretendo ingressar no mercado o mais rápido possivel para experiência.</p>
-               </div>
-                <div class="imagem2">
-                    <img src="/img/foto_perfil.png" alt="foto do ícone de usuário ">
-                </div>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+               
             </div>
-           
-        </section>
-        <section id="formacao"> 
-                
-                <div class="box">
-                    <h3>Curso de Programador Web</h3>
-                    <a href="#Certificado"> 
-                  <picture>
-                    <img src="/img/programador.png" alt="imagem de uma tag ilustrativa">
-                  </picture>
-                    <p>Clique no certificado</p>
-                    </a>
-                    
-                    
-                </div>
-                <div class="box">
-                        <h3>Desenvolvimento Web</h3>
-                        <a href="#certificado"><img src="/img/desenvolvedor.jpg" alt="">
-                        <p>Clique no certificado</p></a>
-                    
-                </div>
-                <div class="box">
-                    <h3>Curso CSS: folhas de estilo</h3>
-                    <a href="#certificado">
-                            <img src="/img/css.jpg" alt="">
-                        <p>Clique no certificado</p>
-                    </a>
-                    
-                </div>
 
-        </section>
+            <div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="/img/perfil.jpg" alt="Profile picture">
+        </div>
+    </section>
+<!-- /home section -->
+
+
+
+<!-- Service section -->
+    <section class="services" id="services">
+        <h2>Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim inventore excepturi fugit, at sunt quas quidem consequuntur eaque totam! Minus provident vel expedita distinctio doloribus ratione repellendus nam dolor veniam?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-curly'></i>
+                <h3>Beck-end Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim inventore excepturi fugit, at sunt quas quidem consequuntur eaque totam! Minus provident vel expedita distinctio doloribus ratione repellendus nam dolor veniam?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim inventore excepturi fugit, at sunt quas quidem consequuntur eaque totam! Minus provident vel expedita distinctio doloribus ratione repellendus nam dolor veniam?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+ <!-- /service section -->
+
+
+ <!-- portifolio section-->
+<section class="portifolio" id="portifolio">
+    <h2>Latest <span>Projectcs</span></h2>
+    <div class="portifolio-container">
+    <div class="portifolio-box">
+        <img src="/img/jpg1.jpg" alt="portifolio 0">
+        <div class="portifolio-layer">
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam molestiae a hic, est et amet sed provident doloribus quisquam temporibus sunt tenetur dolor dolores iste unde voluptas ea quod?
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+
+    <div class="portifolio-box">
+        <img src="/img/jpg1.jpg" alt="portifolio 0">
+        <div class="portifolio-layer">
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam molestiae a hic, est et amet sed provident doloribus quisquam temporibus sunt tenetur dolor dolores iste unde voluptas ea quod?
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+
+    <div class="portifolio-box">
+        <img src="/img/jpg1.jpg" alt="portifolio 1">
+        <div class="portifolio-layer">
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam molestiae a hic, est et amet sed provident doloribus quisquam temporibus sunt tenetur dolor dolores iste unde voluptas ea quod?
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+
+    <div class="portifolio-box">
+        <img src="/img/desenvolvedor.jpg" alt="portifolio 2">
+        <div class="portifolio-layer">
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam molestiae a hic, est et amet sed provident doloribus quisquam temporibus sunt tenetur dolor dolores iste unde voluptas ea quod?
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+
+    <div class="portifolio-box">
+       <img src="/img/jpg1.jpg" alt="portifolio 3">
+
+        <div class="portifolio-layer">
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam molestiae a hic, est et amet sed provident doloribus quisquam temporibus sunt tenetur dolor dolores iste unde voluptas ea quod?
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+
+    <div class="portifolio-box">
+        <img src="/img/desenvolvedor.jpg" alt="portifolio 4">
+        <div class="portifolio-layer">
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam molestiae a hic, est et amet sed provident doloribus quisquam temporibus sunt tenetur dolor dolores iste unde voluptas ea quod?
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+</div>
+
+  
+</section>
+  <!-- /portifolio section-->
+    
+  
+<!-- contact section -->
+<section class="contact" id="contact">
+    <h2>Contact <span>Me!</span></h2>
+    <form action="" >
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="E-mail">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea cols="30" rows="10" placeholder="Message"></textarea>
+
+        <a href="#" class="btn" >Send Mensage</a>
+    </form>
+</section>
+<!-- /contact section -->
+
+<!-- About section -->
+<section class="about" id="about">
+<div class="about-img">
+    <img src="img/perfil.jpg" alt="About me">
+</div>
+<div class="about-content">
+    <h3>About me</h3>
+    <h1>Full-Stack <span>Developer</span> <span>Student</span></h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quod illo id alias nemo at odio repellat rem consectetur ut, laboriosam quibusdam, magni omnis! Itaque inventore harum molestiae similique illum? Voluptas dolore reiciendis minima blanditiis aspernatur optio consequatur a laborum.</p>
+
+    <a href="#" class="btn">Read More</a>
+</div>
+</section>
+<!-- /About section -->
+
+
+<footer>
+    <p>Copyright &copy; 2024 by  &lt;/Helo&gt;.A Rights Reserved.</p>
+</footer>
 
 </body>
+<script src="/js/script.js"></script>
 </html>
